@@ -15,11 +15,75 @@ image: /assets/images/twittercard.jpg
   </div>
 </header>
 
-{% include appel-a-orateurs.html %}
+<div class="section-margin">
+	<div class="wrapper">
+		<div class="text-center">
+			<section>
+        <h2 class="regular-title-size">Cette année, deux formats possibles : <span class="red">Lightning&nbsp;Talks & Pecha Kucha</span></h2>
+        <p> Nous effectuons nous-même la curation des conférences de 20 minutes afin de construire une journée unique, cohérente et pleine de surprises. </p>
+        <p> Les conférences courtes peuvent être tout aussi enrichissantes et donnent du rythme à la journée. Nous comptons sur vous pour étonner les participants. </p>
+        <p>Vous avez jusqu'au 5 février, minuit.</p>
+			</section>
+		</div>
+  </div>
+</div>
 
+<div class="darkgrey-section form-section">
+	<div class="wrapper">
 
+    <form method="post" id="mailto-form" action="https://docs.google.com/forms/d/1tZWDKfvOX0uieu3_HGubJ7X8Ux4OJD99IogbfYJv8fw/formResponse" enctype="multipart/form-data">
+      <div class="grid-2">
+        <div class="form-field">
+          <label class="form-label" for="speaker-name">Prénom et nom <span class="red">*</span></label>
+          <input type="text" name="entry.174408459" id="speaker-name" required>
+        </div>
+        <div class="form-field">
+          <label class="form-label" for="speaker-email">Email</label>
+          <input type="email" name="entry.1910784286" id="speaker-email" required>
+        </div>
+      </div>
+      <div class="form-field">
+        <p class="form-label">Format(s) <span class="red">*</span></p>
+        <ul class="radiogroup">
+          <li>
+            <input type="radio" name="entry.359515447" value="Lightning Talk" id="talk-format-lt">
+            <label for="talk-format-lt">Lightning Talk <span class="help">5 minutes</span></label>
+            <div class="check"></div>
+          </li>
+          <li>
+            <input type="radio" name="entry.359515447" value="Pecha Kucha" id="talk-format-pk">
+            <label for="talk-format-pk">Pecha Kucha <span class="help">20 images x 20 secondes</span></label>
+            <div class="check"></div>
+          </li>
+        </ul>
+      </div>
+      <div class="form-field">
+        <label class="form-label" for="talk-title">Titre de ta présentation <span class="red">*</span></label>
+        <input type="text" name="entry.1999901711" id="talk-title" required>
+      </div>
+      <div class="form-field">
+        <label class="form-label" for="talk-description">Description de ta présentation <span class="red">*</span></label>
+        <div class="">
+          <textarea name="entry.859987257" id="talk-description" cols="30" rows="10" required></textarea>
+        </div>
+      </div>
+      <div class="form-field">
+        <label class="form-label" for="talk-description">Si le public ne devait retenir qu'une chose, ce serait... <span class="red">*</span></label>
+        <div class="">
+          <textarea name="entry.1576045609" id="talk-description" cols="30" rows="10" required></textarea>
+        </div>
+      </div>
+      <div class="form-field">
+        <label class="form-label" for="talk-questions">Tu veux ajouter quelque chose ?</label>
+        <div class="">
+          <textarea name="entry.1030661705" id="talk-questions" cols="30" rows="10"></textarea>
+          <p class="help">Nous prenons en charge le transport et l'hébergement, et te proposons de t'aider à travailler ta présentation (ce champ est réservé à la thym et ne sera pas publié sur le site si ta proposition est retenue).</p>
+        </div>
+      </div>
+      <div class="text-center">
+        <button type="submit" class="cta button-type1">Envoyer ma proposition</button>
+      </div>
+    </form>
 
-
-<div class="thanks-banner">
-      <!-- nothing here! -->
+  </div>
 </div>

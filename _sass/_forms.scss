@@ -51,7 +51,7 @@ input, textarea, select {
       position: absolute;
       visibility: hidden;
     }
-    &:hover {
+    &:hover, &:focus {
       label{
         color: $lightgrey;
       }

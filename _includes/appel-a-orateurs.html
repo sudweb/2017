@@ -2,7 +2,7 @@
 	<div class="wrapper">
 		<div class="text-center">
 			<section>
-        <h2 class="regular-title-size">L’appel à orateurs ne concerne que les conférences de 5 minutes</h2>
+        <h2 class="regular-title-size">Cette année, deux formats possibles : <span class="red">Lightning&nbsp;Talks & Pecha Kucha</span></h2>
         <p> Nous effectuons nous-même la curation des conférences de 20 minutes afin de construire une journée unique, cohérente et pleine de surprises. </p>
         <p> Les conférences courtes peuvent être tout aussi enrichissantes et donnent du rythme à la journée. Nous comptons sur vous pour étonner les participants. </p>
         <p>Vous avez jusqu'au 5 février, minuit.</p>
@@ -14,31 +14,48 @@
 <div class="yellow-section">
 	<div class="wrapper">
 
-    <form class="form" method="post" id="mailto-form" action="https://docs.google.com/forms/d/1412jD1crc2DZK1MhmtEyQYpavK9gAl-ayj8l25Fcm5A/formResponse" enctype="multipart/form-data">
-      <div class="form-field">
-        <label for="speaker-name">Votre prénom et nom</label>
-        <input type="text" name="entry.174408459" id="speaker-name" required>
-      </div>
-      <div class="form-field">
-        <label for="speaker-email">Votre adresse email</label>
-        <input type="email" name="entry.1910784286" id="speaker-email" required>
-      </div>
-      <div class="form-field">
-        <label for="talk-title">Titre de la conférence</label>
-        <input type="text" name="entry.1999901711" id="talk-title" required>
-      </div>
-      <div class="form-field">
-        <label for="talk-description">Que devrait en retenir le public ?</label>
-        <div class="">
-          <textarea name="entry.859987257" id="talk-description" cols="30" rows="10" required></textarea>
-          <small class="help">Ce texte ne sera pas rendu public : c'est pour nous aider à comprendre ce que vous cherchez à partager.</small>
+    <form class="form" method="post" id="mailto-form" action="https://docs.google.com/forms/d/1tZWDKfvOX0uieu3_HGubJ7X8Ux4OJD99IogbfYJv8fw/formResponse" enctype="multipart/form-data">
+      <div class="grid-2">
+        <div class="form-field">
+          <label class="form-label" for="speaker-name">Votre prénom et nom</label>
+          <input type="text" name="entry.174408459" id="speaker-name" required>
+        </div>
+        <div class="form-field">
+          <label class="form-label" for="speaker-email">Votre adresse email</label>
+          <input type="email" name="entry.1910784286" id="speaker-email" required>
         </div>
       </div>
       <div class="form-field">
-        <label for="talk-questions">Des remarques ? Des questions ? Des besoins particuliers ?</label>
+        <p class="form-label">Format(s)</p>
+        <ul class="radiogroup">
+          <li>
+            <input type="radio" name="entry.359515447" value="Lightning Talk" id="talk-format-lt">
+            <label for="talk-format-lt">Lightning Talk <span class="help">5 minutes</span></label>
+            <div class="check"></div>
+          </li>
+          <li>
+            <input type="radio" name="entry.359515447" value="Pecha Kucha" id="talk-format-pk">
+            <label for="talk-format-pk">Pecha Kucha <span class="help">20 images x 20 secondes</span></label>
+            <div class="check"></div>
+          </li>
+        </ul>
+      </div>
+      <div class="form-field">
+        <label class="form-label" for="talk-title">Titre de la conférence</label>
+        <input type="text" name="entry.1999901711" id="talk-title" required>
+      </div>
+      <div class="form-field">
+        <label class="form-label" for="talk-description">Que devrait en retenir le public ?</label>
+        <div class="">
+          <textarea name="entry.859987257" id="talk-description" cols="30" rows="10" required></textarea>
+          <p class="help">Ce texte ne sera pas rendu public : c'est pour nous aider à comprendre ce que vous cherchez à partager.</p>
+        </div>
+      </div>
+      <div class="form-field">
+        <label class="form-label" for="talk-questions">Des remarques ? Des questions ? Des besoins particuliers ?</label>
         <div class="">
           <textarea name="entry.1030661705" id="talk-questions" cols="30" rows="10"></textarea>
-          <small class="help">Ça aussi ça ne sera pas rendu public.</small>
+          <p class="help">Ça aussi ça ne sera pas rendu public.</p>
         </div>
       </div>
       <div class="text-center">

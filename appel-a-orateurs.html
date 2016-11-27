@@ -34,23 +34,23 @@ image: /assets/images/twittercard.jpg
     <form method="post" id="mailto-form" action="https://docs.google.com/forms/d/1tZWDKfvOX0uieu3_HGubJ7X8Ux4OJD99IogbfYJv8fw/formResponse" enctype="multipart/form-data">
       <div class="grid-2">
         <div class="form-field">
-          <label class="form-label" for="speaker-name">Prénom et nom <span class="red">*</span></label>
-          <input type="text" name="entry.174408459" id="speaker-name" required>
+          <label class="form-label" for="speaker-name" id="speaker-name-label">Prénom et nom <span class="red">*</span></label>
+          <input type="text" name="entry.174408459" id="speaker-name" aria-labelledby="speaker-name-label" required>
         </div>
         <div class="form-field">
-          <label class="form-label" for="speaker-email">Email</label>
-          <input type="email" name="entry.1910784286" id="speaker-email" required>
+          <label class="form-label" for="speaker-email" id="speaker-email-label">Email</label>
+          <input type="email" name="entry.1910784286" id="speaker-email" aria-labelledby="speaker-email-label" required>
         </div>
       </div>
       <div class="form-field">
-        <p class="form-label">Format(s) <span class="red">*</span></p>
-        <ul class="radiogroup">
-          <li>
+        <p class="form-label" id="format-label">Format(s) <span class="red">*</span></p>
+        <ul class="radiogroup" role="radiogroup" aria-required="true" aria-labelledby="format-label">
+          <li role="radio">
             <input type="radio" name="entry.359515447" value="Lightning Talk" id="talk-format-lt">
             <label for="talk-format-lt">Lightning Talk <span class="help">5 minutes</span></label>
             <div class="check"></div>
           </li>
-          <li>
+          <li role="radio">
             <input type="radio" name="entry.359515447" value="Pecha Kucha" id="talk-format-pk">
             <label for="talk-format-pk">Pecha Kucha <span class="help">20 images x 20 secondes</span></label>
             <div class="check"></div>
@@ -58,25 +58,25 @@ image: /assets/images/twittercard.jpg
         </ul>
       </div>
       <div class="form-field">
-        <label class="form-label" for="talk-title">Titre de ta présentation <span class="red">*</span></label>
-        <input type="text" name="entry.1999901711" id="talk-title" required>
+        <label class="form-label" for="talk-title" id="talk-title-label">Titre de ta présentation <span class="red">*</span></label>
+        <input type="text" name="entry.1999901711" id="talk-title" aria-labelledby="talk-title-label" required>
       </div>
       <div class="form-field">
-        <label class="form-label" for="talk-description">Description de ta présentation <span class="red">*</span></label>
+        <label class="form-label" for="talk-description" id="talk-description-label">Description de ta présentation <span class="red">*</span></label>
         <div class="">
-          <textarea name="entry.859987257" id="talk-description" cols="30" rows="10" required></textarea>
+          <textarea name="entry.859987257" id="talk-description" cols="30" rows="10" aria-labelledby="talk-description-label" required></textarea>
         </div>
       </div>
       <div class="form-field">
-        <label class="form-label" for="talk-description">Si le public ne devait retenir qu'une chose, ce serait... <span class="red">*</span></label>
+        <label class="form-label" for="talk-public" id="talk-public-label">Si le public ne devait retenir qu'une chose, ce serait... <span class="red">*</span></label>
         <div class="">
-          <textarea name="entry.1576045609" id="talk-description" cols="30" rows="10" required></textarea>
+          <textarea name="entry.1576045609" id="talk-public" cols="30" rows="10" aria-labelledby="talk-public-label" required></textarea>
         </div>
       </div>
       <div class="form-field">
-        <label class="form-label" for="talk-questions">Tu veux ajouter quelque chose ?</label>
+        <label class="form-label" for="talk-questions" id="talk-questions-label">Tu veux ajouter quelque chose ?</label>
         <div class="">
-          <textarea name="entry.1030661705" id="talk-questions" cols="30" rows="10"></textarea>
+          <textarea name="entry.1030661705" id="talk-questions" cols="30" rows="10" aria-labelledby="talk-questions-label"></textarea>
           <p class="help">Nous prenons en charge le transport et l'hébergement, et te proposons de t'aider à travailler ta présentation (ce champ est réservé à la thym et ne sera pas publié sur le site si ta proposition est retenue).</p>
         </div>
       </div>

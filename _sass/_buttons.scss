@@ -12,6 +12,7 @@
 	}
 	&:hover,
 	&:focus {
+    cursor: pointer;
 		transform: translateY(.15em);
 		box-shadow: 0 0 0 darken($default-button-bg, 15%);
 		background: darken($default-button-bg, 5%);

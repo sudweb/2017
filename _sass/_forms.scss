@@ -12,3 +12,25 @@ input, textarea, select {
 		box-shadow: 0 0 0 darken($white, 30%);
 	}
 }
+
+label {
+  font-size: $defaut-font-size;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+
+  label {
+    
+  }
+
+  @media (min-width: $media-break-point) {
+		flex-direction: row;
+    label {
+      width: 30%;
+      text-align: right;
+      display: block;
+    }
+	}
+}

@@ -32,7 +32,7 @@ input, textarea, select {
 
 .help {
   display: block;
-  color: lighten($yellow, 30%);
+  color: $lightgrey;
   font-size: 20px; font-style: italic; font-weight: bold;
   margin-top: 0;
 }
@@ -53,10 +53,10 @@ input, textarea, select {
     }
     &:hover {
       label{
-        color: lighten($yellow, 30%);
+        color: $lightgrey;
       }
       .check {
-        border-color: lighten($yellow, 30%);
+        border-color: $lightgrey;
       }
     }
   }

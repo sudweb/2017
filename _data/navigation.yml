@@ -4,4 +4,5 @@ primary:
     url: "/"
   - name: "Lieux"
     url: "/lieux/"
-
+  - name: "Appel à orateurs"
+    url: "/appel-a-orateurs/"

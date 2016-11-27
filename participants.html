@@ -1,0 +1,58 @@
+---
+layout: default
+title: Participants
+description: "Celles et ceux qui viennent à Sud Web — et ils le valent bien !"
+image: /assets/images/twittercard.jpg
+permalink: /participants/
+sitemap: false
+published: false
+---
+
+<header class="page-header">
+  <div class="wrapper">
+    <div class="content">
+      <h1 class="title">Participant·es</h1>
+      <p class="sstitle">Elles ne le savent pas encore mais ces personnes disposent toutes d'un super-pouvoir&nbsp;!</p>
+    </div>
+  </div>
+</header>
+
+<main>
+	<article class="white-section">
+
+		<div class="wrapper text-center">
+      {% assign attendees = site.data.attendees | where: "hide",null | sort: "name" | uniq: "name" %}
+  		{% assign default-avatar = "/assets/images/default-avatar.png" %}
+  		{% assign super-woman = "/assets/images/super-woman.png" %}
+
+			<h2 class="great-title-size red uppercase">{{ attendees | size }} super-héros</h2>
+		</div>
+
+		<div class="grid-4 text-center">
+
+    {% for attendee in attendees %}
+  		<section class="attendee {% if attendee.ticket_type == '667251' %} golden-ticket{% endif %}">
+  			<figure class="attendee-avatar">
+  				{% if attendee.twitter %}
+  				<img src="https://twitter.com/{{ attendee.twitter }}/profile_image?size=bigger" alt="Super Avatar">
+  				{% elsif attendee.title == 'Mme' %}
+  				<img src="https://secure.gravatar.com/avatar/{{ attendee.email | md5 }}?d={{ super-woman | absolute_url | cgi_escape }}" alt="Superwoman">
+  				{% else %}
+  				<img src="https://secure.gravatar.com/avatar/{{ attendee.email | md5 }}?d={{ default-avatar | absolute_url | cgi_escape }}" alt="Superman">
+  				{% endif %}
+  			</figure>
+  			{% assign name = attendee.name | | split:" " %}
+  			<h3 class="attendee-name">{{ name[0] | capitalize }} {{ name[1] | capitalize }} {{ name[2] | capitalize }}</h3>
+  			{% if attendee.twitter %}
+  			<a href="https://twitter.com/{{ attendee.twitter }}">@{{ attendee.twitter }}</a>
+  			{% endif %}
+  		</section>
+    {% endfor %}
+	  </div>
+	</article>
+
+	<div class="hug-banner">
+	<!-- nothing here! -->
+	</div>
+
+</main>

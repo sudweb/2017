@@ -15,7 +15,7 @@
 
 
 
-.section-margin, .white-section, .yellow-section, .orange-section, .darkgrey-section {
+.section-margin, .white-section, .yellow-section, .orange-section, .darkgrey-section, .darkred-section {
 	padding-top: $section-margin; padding-bottom: $section-margin;
 }
 .white-section {
@@ -32,6 +32,10 @@
 }
 .darkgrey-section {
 	background-color: $darkgrey;
+	color: $alternate-color;
+}
+.darkred-section {
+	background-color: $darkred;
 	color: $alternate-color;
 }
 .icon-section {
@@ -55,6 +59,9 @@
     top: -42px; left: 50%;
     margin-left: -40px;
   }
+}
+.form-section {
+  padding-top: $section-margin/2;
 }
 
 .warning {

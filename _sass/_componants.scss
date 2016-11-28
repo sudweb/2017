@@ -26,6 +26,11 @@
 	background-color: $yellow;
 	color: $alternate-color;
 }
+.yellowdark-section {
+  padding-top: $section-margin/2; padding-bottom: $section-margin/2;
+	background-color: darken($yellow, 10%);
+	color: $alternate-color;
+}
 .orange-section {
 	background-color: $orange;
 	color: $alternate-color;

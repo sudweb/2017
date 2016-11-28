@@ -4,7 +4,7 @@
 
 .cta-zone-1 {
 	position: relative;
-	
+
 	.cta-title {
 		font-size: $small-title-size;
 	}
@@ -32,4 +32,59 @@
 	time {
 		display: block;
 	}
+}
+
+// .episode-numbers {
+//   > * {
+//
+//   }
+// }
+
+.numbers-item {
+  position: relative;
+  padding-left: 80px; margin-top: 0;
+  text-align: left;
+  svg:not([class*='sw-']):not([class*='in']) {
+    position: absolute; opacity: .3;
+    width: 50px; height: 75px;
+    left: 0; bottom: 50px;
+    &.landscape {
+      width: 60px; height: 60px;
+    }
+    &.big {
+      width: 65px; height: 90px;
+    }
+  }
+  svg.in {
+    width: 120px;
+  }
+  &.logo {
+    padding: 20px 10px;
+  }
+  &.center {
+    padding-left: 15%;
+    svg {
+      margin-left: 20%;
+    }
+  }
+  .sw-logo.regular [id='sw-hands'] {
+    fill: $white;
+  }
+  .legend {
+    display: block; margin-top: -25px;
+    font-size: $small-font-size;
+  }
+}
+
+.number-big, .number-small {
+  font-family: $title-font-family;
+  display: inline;
+}
+
+.number-big {
+  font-size: $great-title-size*2;
+}
+
+.number-small {
+  font-size: $small-title-size*2;
 }

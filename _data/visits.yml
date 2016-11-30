@@ -1,13 +1,13 @@
 
 - name: Cours Mirabeau
   description: Jalonné de platanes, de fontaines, de cafés et de restaurants, d’élégants hôtels particuliers des XVIIe et XVIIIe siècles, il relie la vieille ville au quartier Mazarin.
-
-- name: Place des cardeurs et fontaine Adamo
-  description: Esplanade à l’italienne parsemée de terrasses de cafés et de restaurants, elle comporte une fontaine créée en 1977 par l’artiste aixois Jean Amado.
-
+  
 - name: Atelier Cézanne
   description: De 1902 à sa mort en 1906, Cézanne travaille tous les matins dans cet atelier, berceau de dizaines d’œuvres aujourd’hui conservées dans les plus grands musées.
   website: http://www.atelier-cezanne.com
+
+- name: Place des cardeurs
+  description: Esplanade à l’italienne parsemée de terrasses de cafés et de restaurants, elle comporte une fontaine créée en 1977 par l’artiste aixois Jean Amado.
 
 - name: Musée Granet
   description: Situé dans l’ancien palais de Malte, il abrite des collections du XIVe au XXe siècle, notamment des œuvres de Rembrandt, Ingres et Cézanne.

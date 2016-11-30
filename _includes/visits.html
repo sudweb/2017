@@ -1,0 +1,9 @@
+<div class="grid-2">
+  {% assign visits = site.data.visits %}
+  {% for visit in visits %}
+  <section>
+    <h3 class="tiny-title-size uppercase">{{ visit.name }}</h3>
+    <p class="tiny-size">{{ visit.description }}</p>
+  </section>
+  {% endfor %}
+</div>

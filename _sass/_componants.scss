@@ -51,18 +51,18 @@
   &::before {
     position: absolute;
     content: '';
-    display: block; width: 108px; height: 108px;
-    top: -54px; left: 50%;
-    margin-left: -54px;
+    display: block; width: 7em; height: 7em;
+    top: -3.5em; left: 50%;
+    margin-left: -3.5em;
     background: white;
-    border-radius: 108px;
+    border-radius: 7em;
   }
   svg {
     position: absolute;
     display: block;
-    width: 80px; height: 80px;
-    top: -42px; left: 50%;
-    margin-left: -40px;
+    width: 5em; height: 5em;
+    top: -2.5em; left: 50%;
+    margin-left: -2.5em;
   }
 }
 .form-section {

@@ -42,36 +42,43 @@
 
 .numbers-item {
   position: relative;
-  padding-left: 80px; margin-top: 0;
+  padding-left: 5em; margin-top: 0;
   text-align: left;
+  height: 12em;
   svg:not([class*='sw-']):not([class*='in']) {
     position: absolute; opacity: .3;
-    width: 50px; height: 75px;
-    left: 0; bottom: 50px;
+    width: 3.5em; height: 4.5em;
+    left: 0; bottom: 4em;
     &.landscape {
-      width: 60px; height: 60px;
+      width: 4.5em; height: 4em;
+      bottom: 4em;
     }
     &.big {
-      width: 65px; height: 90px;
+      width: 4.2em; height: 7em;
     }
   }
   svg.in {
-    width: 120px;
+    width: 8em; height: 10.5em;
   }
   &.logo {
-    padding: 20px 10px;
+    padding: 2em 1em;
   }
   &.center {
-    padding-left: 15%;
+    padding-left: 8.5em;
     svg {
-      margin-left: 20%;
+      margin-left: 3.5em;
+    }
+    .legend {
+      padding-left: 7em;
     }
   }
   .sw-logo.regular [id='sw-hands'] {
     fill: $white;
   }
   .legend {
-    display: block; margin-top: -25px;
+    position: absolute;
+    padding-left: 4em;
+    left: 0; right: 0; bottom: 1em;
     font-size: $small-font-size;
   }
 }

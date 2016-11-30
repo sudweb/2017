@@ -5,7 +5,8 @@
   description: Jalonné de platanes, de fontaines, de cafés et de restaurants, d’élégants hôtels particuliers des XVIIe et XVIIIe siècles, il relie la vieille ville au quartier Mazarin.
 
 - name: Musée Granet
-  description: 
+  description: Situé dans l’ancien palais de Malte, il abrite des collections du XIVe au XXe siècle, notamment des œuvres de Rembrandt, Ingres et Cézanne.
+  website: http://www.museegranet-aixenprovence.fr
 
 - name: Pavillon de vendôme
   description:
@@ -17,7 +18,8 @@
   description:
 
 - name: Fondation Vasarely
-  description: Créé en 1976, le bâtiment est classé monument historique. À l’intérieur, 42 intégrations monumentales de Victor Vasarely. Expositions toute l’année.
+  description: Créé en 1976, le bâtiment est classé monument historique. À l’intérieur, 42 intégrations monumentales de Victor Vasarely.
+  website: http://www.fondationvasarely.fr
 
 - name: Cathédrale Saint-Sauveur
   description:

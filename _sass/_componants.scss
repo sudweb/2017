@@ -300,3 +300,18 @@
 .bronze-partners {
 	@extend %partners;
 }
+
+.link {
+  text-decoration: none;
+  svg {
+    width: 1.2em;
+    opacity: .4;
+    transition: opacity .25s linear;
+  }
+  &:hover {
+    text-decoration: underline;
+    svg {
+      opacity: .8;
+    }
+  }
+}

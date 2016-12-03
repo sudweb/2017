@@ -85,7 +85,6 @@
 
 .number-big, .number-small {
   font-family: $title-font-family;
-  display: inline;
 }
 
 .number-big {
@@ -94,4 +93,11 @@
 
 .number-small {
   font-size: $small-title-size*2;
+}
+
+.help {
+  display: block;
+  color: $lightgrey;
+  font-size: $small-font-size; font-style: italic; font-weight: $bold-font-weight;
+  margin-top: 0;
 }

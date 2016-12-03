@@ -5,7 +5,7 @@
   Design:       Enza (@zizae)
 
 /* SITE */
-  Last Updated: 2016/12/01
+  Last Updated: 2016/12/03
   Language:     French
   Standards:    HTML5, CSS3
   Built with:   Jekyll <http://jekyllrb.com>

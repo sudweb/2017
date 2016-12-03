@@ -11,7 +11,7 @@ h1, h2, h3, h4, h5, h6, .h-like {
 }
 .regular-title-size {
 	font-size: $regular-title-size;
-  line-height: .9;
+  line-height: 1;
 }
 .small-title-size {
 	font-size: $small-title-size;
@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6, .h-like {
 	font-size: $great-font-size;
 }
 .default-size {
-	font-size: $defaut-font-size;
+	font-size: $default-font-size;
 }
 .small-size {
 	font-size: $small-font-size;

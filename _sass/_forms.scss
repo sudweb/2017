@@ -4,7 +4,7 @@
 
 
 input, textarea, select {
-	display: inline-block; margin-top: 1em; padding: 1em; box-sizing: border-box;
+	display: block; width: 100%; margin-top: 1em; padding: 1em; box-sizing: border-box;
 	background: $white; box-shadow: 0 .15em 0 darken($white, 30%); outline: 0;
 	border-radius: $button-default-radius; border: 0;
 	&:focus {
@@ -12,7 +12,7 @@ input, textarea, select {
 		box-shadow: 0 0 0 darken($white, 30%);
 	}
   footer & {
-    padding: .5em;
+    display: inline-block; width: auto; padding: .5em;
   }
 }
 
@@ -20,20 +20,12 @@ textarea {
   height: $default-line-height * $default-font-size * 3;
 }
 
+
 .form-label {
   font-size: $default-font-size;
   margin-bottom: 0;
   @media (min-width: $media-break-point) {
     margin-top: 1em;
-  }
-}
-
-.form-field {
-  display: flex;
-  flex-direction: column;
-
-  textarea {
-    width: 100%;
   }
 }
 

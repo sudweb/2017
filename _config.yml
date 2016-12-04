@@ -56,6 +56,7 @@ exclude:
   - .gitignore
   - .ruby-version
   - .travis.yml
+  - autoprefixer.yml
   - Gemfile
   - Gemfile.lock
   - Procfile

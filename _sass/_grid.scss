@@ -13,6 +13,9 @@
 	& > * {
 		box-sizing: border-box; margin-top: $grid-goetter; margin-left: $grid-goetter;
 		flex: 1 0 $grid-width / ($grid-max-col-number + 1);
+    &.full-width {
+      flex-basis: 100%;
+    }
 	}
 }
 

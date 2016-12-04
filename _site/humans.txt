@@ -14,6 +14,12 @@
 
 /* CONTRIBUTORS */
   
+  Name:         lellex
+  Site:         <https://github.com/lellex>
+  
   Name:         DirtyF
   Site:         <https://github.com/DirtyF>
+  
+  Name:         bertrandkeller
+  Site:         <https://github.com/bertrandkeller>
   

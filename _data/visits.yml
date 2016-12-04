@@ -1,0 +1,27 @@
+
+- name: Cours Mirabeau
+  description: Jalonné de platanes, de fontaines, de cafés et de restaurants, d’élégants hôtels particuliers des XVIIe et XVIIIe siècles, il relie la vieille ville au quartier Mazarin.
+  
+- name: Atelier Cézanne
+  description: De 1902 à sa mort en 1906, Cézanne travaille tous les matins dans cet atelier, berceau de dizaines d’œuvres aujourd’hui conservées dans les plus grands musées.
+  website: http://www.atelier-cezanne.com
+
+- name: Place des cardeurs
+  description: Esplanade à l’italienne parsemée de terrasses de cafés et de restaurants, elle comporte une fontaine créée en 1977 par l’artiste aixois Jean Amado.
+
+- name: Musée Granet
+  description: Situé dans l’ancien palais de Malte, il abrite des collections du XIVe au XXe siècle, notamment des œuvres de Rembrandt, Ingres et Cézanne.
+  website: http://www.museegranet-aixenprovence.fr
+
+- name: Pavillon de vendôme
+  description: Achevé en 1665 et entouré d’un parc à la française, le pavillon offre le cadre et la décoration d’une demeure aixoise des XVIIe et XVIIIe siècles.
+
+- name: Fontaine de la rotonde
+  description: Érigée en 1860, de dimensions exceptionnelles, elle est surmontée de 3 statues qui représentent la Justice (tournée vers la ville), l’Agriculture (vers Marseille), et les Beaux-Arts (vers Avignon).
+
+- name: Cathédrale Saint-Sauveur
+  description: Cet édifice, construit sur l'emplacement du forum antique, rassemble une multitude de styles architecturaux.
+
+- name: Fondation Vasarely
+  description: Créé en 1976, le bâtiment est classé monument historique. À l’intérieur, 42 intégrations monumentales de Victor Vasarely.
+  website: http://www.fondationvasarely.fr

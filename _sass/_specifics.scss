@@ -1,0 +1,100 @@
+/* ==========================================================================
+   Specifics classes
+   ========================================================================== */
+
+.cta-zone-1 {
+	position: relative;
+
+	.cta-title {
+		font-size: $small-title-size;
+	}
+}
+
+.schedule-nav {
+	background: $darkgrey;
+	& > * {
+		display: flex;
+		padding: -1px 0;
+		overflow: hidden;
+		flex-flow: row wrap;
+		justify-content: center;
+	}
+	a {
+		display: block; margin: -1px; padding: .5em;
+		flex: 1 0 auto;
+		border: 2px solid lighten($darkgrey, 20%);
+		font: $tiny-title-size $title-font-family; color: $alternate-color; text-align: center; text-decoration: none;
+		&:hover,
+		&:focus {
+			background: lighten($darkgrey, 10%);
+		}
+	}
+	time {
+		display: block;
+	}
+}
+
+// .episode-numbers {
+//   > * {
+//
+//   }
+// }
+
+.numbers-item {
+  position: relative;
+  padding-left: 5em; margin-top: 0;
+  text-align: left;
+  height: 12em;
+  svg:not([class*='sw-']):not([class*='in']) {
+    position: absolute; opacity: .3;
+    width: 3.5em; height: 4.5em;
+    left: 0; bottom: 4em;
+    &.landscape {
+      width: 4.5em; height: 4em;
+      bottom: 4em;
+    }
+    &.big {
+      width: 4.2em; height: 7em;
+    }
+  }
+  svg.in {
+    width: 8em; height: 10.5em;
+  }
+  &.logo {
+    padding: 2em 1em;
+  }
+  &.center {
+    padding-left: 8.5em;
+    svg {
+      margin-left: 3.5em;
+    }
+    .legend {
+      padding-left: 7em;
+    }
+  }
+  .sw-logo.regular [id='sw-hands'] {
+    fill: $white;
+  }
+  .legend {
+    position: absolute;
+    padding-left: 4em;
+    left: 0; right: 0; bottom: 1em;
+    font-size: $small-font-size;
+  }
+}
+
+.number-big, .number-small {
+  font-family: $title-font-family;
+}
+
+.number-big {
+  font-size: $great-title-size*2;
+}
+
+.number-small {
+  font-size: $small-title-size*2;
+}
+
+.help {
+  font-size: $small-font-size; font-style: italic; color: $lightgrey;
+}

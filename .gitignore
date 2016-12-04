@@ -27,7 +27,7 @@ build/Release
 node_modules
 
 # Jekyll
-# _site/
+_site/
 .sass-cache/
 .jekyll-metadata
 Gemfile.lock

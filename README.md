@@ -1,13 +1,13 @@
-# Sud Web 2016
+# Sud Web 2017
 
-[![Build Status](https://travis-ci.org/sudweb/2016.svg)](https://travis-ci.org/sudweb/2016)
+[![Build Status](https://travis-ci.org/sudweb/2017.svg)](https://travis-ci.org/sudweb/2016)
 
-Site internet du cycle de conférences annuel Sud Web, dont la 6e édition aura lieu à Bordeaux les 27 et 28 mai 2016.
+Site internet du cycle de conférences annuel Sud Web, dont la 7e édition aura lieu à Aix-en-Provence les 19 et 20 mai 2017.
 
-[http://sudweb.fr/2016](http://sudweb.fr/2016)
+[http://sudweb.fr/](http://sudweb.fr/)
 
 ## Pré-requis
-Le site est généré à l'aide de [Jekyll](http://jekyllrb.com/) et nécessite Ruby 2.1.x (voir `.ruby-version`)
+Le site est généré à l'aide de [Jekyll](http://jekyllrb.com/) et nécessite Ruby 2.3 (voir `.ruby-version`)
 
 Nous vous recommandons de gérer l'installation de Ruby via [rbenv](http://rbenv.org/).
 
@@ -16,7 +16,7 @@ Sous Mac OS X, vous pouvez utiliser [Homebrew](http://brew.sh/) pour cela
 $ brew install rbenv ruby-build
 ```
 
-Sous Ubuntu, certaines librairies sont nécessaires :
+Sous GNU/Linux, certaines librairies sont nécessaires (à adapter à votre gestionnaire de paquets) :
 ```bash
 sudo apt-get install -y libreadline-dev build-essential
 ```
@@ -32,7 +32,7 @@ $ git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
 
 Si vous n'avez pas déjà cloné le dépot :
 ```bash
-$ git clone https://github.com/sudweb/2016.git 2016 && cd 2016
+$ git clone https://github.com/sudweb/2017.git && cd 2017
 ```
 Si bundler n'est pas installé
 ```bash
@@ -58,30 +58,27 @@ ou
 $ bundle exec jekyll serve
 ```
 
-Si vous modifiez le fichier `_config.yml`, il faut relancer le build
-```bash
-$ bundle exec jekyll build
-```
-Le site est maintenant accessible en local à l'adresse http://127.0.0.1:4000/2016/
+Si vous modifiez le fichier `_config.yml`, il faut couper et relancer Jekyll.
+
+Le site est maintenant accessible en local à l'adresse http://127.0.0.1:4000/2017/
 
 Pour plus d'information sur l'utilisation de Jekyll, reportez-vous à la [documentation officielle](http://jekyllrb.com/docs/home/).
 
 ## Styleguide et notes d'intégration
 
-* [Styleguide](http://sudweb.fr/2016/styleguide/)
 * [Notes d'intégration](notes-integration.md) de @Twikito
 
 ## Contribution
 
-Pour toute demande, merci de [créer une issue](https://github.com/sudweb/2016/issues/new) sur GitHub.
+Pour toute demande, merci de [créer une issue](https://github.com/sudweb/2017/issues/new) sur GitHub.
 
-Si vous souhaitez nous aider, vous pouvez [copier](https://help.github.com/articles/fork-a-repo/) le dépôt, faire vos modifications dans une nouvelle branche et [faire une demande de fusion](https://github.com/sudweb/2016/pulls).
+Si vous souhaitez nous aider, vous pouvez [copier](https://help.github.com/articles/fork-a-repo/) le dépôt, faire vos modifications dans une nouvelle branche et [faire une demande de fusion](https://github.com/sudweb/2017/pulls).
 
-Toute modification doit faire l'objet d'une [pull request](https://github.com/sudweb/2016/pulls) et doit passer les tests avant de pouvoir être fusionnée.
+Toute modification doit faire l'objet d'une [pull request](https://github.com/sudweb/2017/pulls) et doit passer les tests avant de pouvoir être fusionnée.
 
 ## Tests
 
-Avant de soumettre votre pull request, lancez le script de test d'intégration continue :
+Avant de soumettre votre pull-request, vérifiez que les tests passent :
 
 ```bash
 $ script/cibuild

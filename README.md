@@ -1,6 +1,6 @@
 # Sud Web 2017
 
-[![Build Status](https://travis-ci.org/sudweb/2017.svg)](https://travis-ci.org/sudweb/2016)
+[![Build Status](https://travis-ci.org/sudweb/2017.svg?branch=master)](https://travis-ci.org/sudweb/2017)
 
 Site internet du cycle de conférences annuel Sud Web, dont la 7e édition aura lieu à Aix-en-Provence les 19 et 20 mai 2017.
 

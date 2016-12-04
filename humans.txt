@@ -20,3 +20,6 @@
   Name:         {{ contributor.login }}
   Site:         <{{ contributor.html_url }}>
   {% endfor %}
+
+  Name:         Matthieu Bué
+  Site:         <https://github.com/Twikito>

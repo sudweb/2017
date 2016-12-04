@@ -1,8 +1,8 @@
 # Primary navigation links
 primary:
-  - name: "Conférences"
-    url: "/"
-  - name: "Lieux"
-    url: "/lieux/"
   - name: "Appel à orateurs"
     url: "/appel-a-orateurs/"
+  - name: "Lieux"
+    url: "/lieux/"
+  - name: "À propos"
+    url: "/"

@@ -20,71 +20,7 @@ textarea {
   height: $default-line-height * $default-font-size * 3;
 }
 
-
-.form-label {
-  font-size: $default-font-size;
-  margin-bottom: 0;
-  @media (min-width: $media-break-point) {
-    margin-top: 1em;
-  }
-}
-
-.radiogroup {
-  display: flex; padding: 0;
-  flex-flow: column wrap;
-  @media (min-width: $media-break-point) {
-    flex-direction: row;
-  }
-  li{
-    position: relative;
-    display: block; width: 100%;
-    float: left;
-    input[type=radio]{
-      position: absolute;
-      visibility: hidden;
-    }
-    &:hover, &:focus {
-      label{
-        color: $lightgrey;
-      }
-      .check {
-        border-color: $lightgrey;
-      }
-    }
-  }
-
-  label{
-    position: relative; z-index: 9;
-    display: block; height: 30px; margin: 10px auto; padding: .5em 25px .5em 80px;
-    cursor: pointer;
-    -webkit-transition: all 0.25s linear;
-  }
-  .check{
-    display: block; width: 25px; height: 25px;
-    position: absolute; z-index: 5;
-    border: 3px solid $white; border-radius: 100%;
-    top: 30px; left: 20px;
-    transition: border .25s linear;
-    -webkit-transition: border .25s linear;
-    &::before {
-      position: absolute;
-      display: block; height: 15px; width: 15px; margin: auto;
-    	content: '';
-      border-radius: 100%;
-      top: 5px; left: 5px;
-    	transition: background 0.25s linear;
-    	-webkit-transition: background 0.25s linear;
-    }
-  }
-  input[type=radio]:checked {
-    & ~ .check {
-      border-color: $white;
-    }
-
-    & ~ .check::before{
-      background: $white;
-    }
-  }
-
-
+select {
+  -webkit-appearance: textfield;
+          appearance: textfield;
 }

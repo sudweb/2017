@@ -33,5 +33,8 @@ _site/
 Gemfile.lock
 _data/attendees.json
 
-# node-waf configuration
+# Mac OS
 .DS_Store
+
+# Editors
+*.idea/

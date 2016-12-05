@@ -1,10 +1,10 @@
 ---
-layout: default
 title: "Styleguide"
 description: "Documentation des composants d'interface du site"
 excerpt: "Styleguide : couleurs, typographie, UI patterns et composants"
 permalink: /styleguide/
 sitemap: false
+image: null
 ---
 
 <div class="wrapper container">

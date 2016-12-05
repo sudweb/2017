@@ -50,6 +50,15 @@ collections:
   colors:
     output: false
 
+defaults:
+  -
+    scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+      image: /assets/images/twittercard.png
+
 exclude:
   - .editorconfig
   - .gitattributes

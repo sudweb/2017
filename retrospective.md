@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Rétrospective
-description: "Sud Web est une association de type 1901 à but non-lucratif."
+description: "Les retours des participants de Sud Web"
+image: null
 permalink: /retrospective/
 published: false
 ---

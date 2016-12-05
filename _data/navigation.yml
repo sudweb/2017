@@ -1,8 +1,8 @@
 # Primary navigation links
 primary:
-  # - name: "Appel à orateurs"
-  #   url: "/appel-a-orateurs/"
   - name: "Sud Web"
     url: "/"
   - name: "Lieux"
     url: "/lieux/"
+  - name: "Appel à orateurs"
+    url: "/appel-a-orateurs/"

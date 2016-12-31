@@ -38,6 +38,7 @@
 .darkgrey-section {
 	background-color: $darkgrey;
 	color: $alternate-color;
+	padding-bottom: 5em;
 }
 .darkred-section {
 	background-color: $darkred;
@@ -60,10 +61,13 @@
   svg {
     position: absolute;
     display: block;
-    width: 5em; height: 5em;
-    top: -2.5em; left: 50%;
-    margin-left: -2.5em;
+    width: 4em; height: 4em;
+    top: -2.4em; left: 50%;
+    margin-left: -2em;
   }
+	p {
+		position: relative; z-index: 1;
+	}
 }
 .form-section {
   padding-top: $section-margin/2;

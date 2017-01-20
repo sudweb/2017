@@ -5,7 +5,7 @@
 
 Site internet du cycle de conférences annuel Sud Web, dont la 7e édition aura lieu à Aix-en-Provence les 19 et 20 mai 2017.
 
-[http://sudweb.fr/](http://sudweb.fr/)
+[https://sudweb.fr/](https://sudweb.fr/)
 
 ## Pré-requis
 Le site est généré à l'aide de [Jekyll](http://jekyllrb.com/) et nécessite Ruby 2.3 (voir `.ruby-version`)

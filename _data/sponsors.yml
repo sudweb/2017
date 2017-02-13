@@ -18,8 +18,13 @@
   title: "Projets web et mobiles"
   logo: acseo.svg
   level: silver
+- name: Eyrolles
+  website: http://www.editions-eyrolles.com/Theme/80300/design-et-developpement-web-mobile
+  title: "Éditions Eyrolles, livres développement web et mobile"
+  logo: eyrolles.svg
+  level: bronze
 - name: Stickermule
   website: https://www.stickermule.com/fr
   title: "Des autocollants personnalisés qui déchirent"
   logo: stickermule.svg
-  level: silver
+  level: bronze

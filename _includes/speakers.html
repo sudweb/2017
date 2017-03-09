@@ -35,7 +35,7 @@
     {% assign speaker = site.data.speakers[names] %}
     <section class="pres-author clearfix">
       <figure class="author-img">
-        <img src="{{ site.baseurl}}/assets/images/orateurs/{{ speaker.name | slugify }}.jpg" alt="{{ speaker.name }}">
+        <img src="{{ site.baseurl}}/assets/images/orateurs/{% if speaker.slug %}{{ speaker.slug }}{% else %}{{ speaker.name | slugify }}{% endif %}.jpg" alt="{{ speaker.name }}">
       </figure>
       <h5 class="author-name default-size">
         {% if speaker.website %}

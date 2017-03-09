@@ -5,21 +5,22 @@ adeline:
   twitter: AdelineWHI
   website: https://www.whisperies.com/
 bruno:
-  bio: Développeur web à la barbe majestueuse spécialisé dans l’écosystème JavaScript et les anecdotes sur la gouvernance des projets open-source. Étudiant éternel en tapotage de clavier.
+  bio: Développeur web à la barbe majestueuse spécialisé dans l’écosystème JavaScript et les anecdotes sur la gouvernance des projets open source. Étudiant éternel en tapotage de clavier.
   name: Bruno Heridet
   twitter: delapouite
   website: http://delapouite.com/
 geoffrey:
   bio: >
-    Geoffrey Dorne, designer indépendant et fondateur de Design & Human, agence de design éthique, sociale et radicale.
+    Geoffrey Dorne, designer indépendant et fondateur de <span lang="en">Design & Human</span>, agence de design éthique, sociale et radicale.
   name: Geoffrey Dorne
   twitter: GeoffreyDorne
   website: http://geoffreydorne.com/
 helene:
   bio: >
     Maman, pâtissière, princesse et RH, le code qu'elle préfère, c'est celui du Travail !
-  name: Hélène Shapira
+  name: Hélène Schapira
   twitter: libellule
+  slug: helene-schapira
   website: http://libelilou.github.io/
 jean-philippe:
   bio: >
@@ -29,13 +30,14 @@ jean-philippe:
   website: http://cabaroc.com/
 joel:
   bio: >
-    Politologue de formation, Joël est le cofondateur de la coopérative Datactivist, spécialisée dans le conseil et l'accompagnement en open data.
-  name: Joel Gombin
+    Politologue de formation, Joël est le cofondateur de la coopérative Datactivist, spécialisée dans le conseil et l'accompagnement en <span lang="en">open data</span>.
+  name: Joël Gombin
+  slug: joel-gombin
   twitter: joelgombin
   website: http://datactivi.st/
 lucas:
   bio: >
-    Après un passage à San Francisco et dans l'ecommerce, Lucas est désormais le premier Product Manager [@Algolia](https://www.algolia.com/). Son souhait ? Que les expériences de recherche désastreuses ne puissent plus exister 😊
+    Après un passage à San Francisco et dans l'e-Commerce, Lucas est désormais le premier <span lang="en">Product Manager</span> [@Algolia](https://www.algolia.com/). Son souhait ? Que les expériences de recherche désastreuses ne puissent plus exister 😊
   name: Lucas Cerdan
   twitter: lucascerdan
   website: https://lucascerdan.com
@@ -48,35 +50,38 @@ lucie:
 marie:
   bio: >
     Consultante technique chez KRDS (qui fait aussi Commitstrip) depuis toujours. Ballotée entre la France et l’Inde, le code, les specs et les hommes.
-  name: Marie Perrier
+  name: Marie Terrier
 nicolas_cyril:
   bio: >
     Cyril et Nicolas sont les co-fondateurs d'[alwaysdata.com](https://alwaysdata.com), une plateforme d’hébergement qui se veut performante, moderne, et humaine.
   name: Nicolas Ferrari et Cyril Baÿ
   twitter: alwaysdata
   website: https://alwaysdata.com
+  slug: nicolas-ferrari-et-cyril-bay
 rafael:
   bio: >
-    Actuellement Lead Designer chez [Netlify](https://www.netlify.com/) et co-animateur du podcast [LayoutFM](http://layout.fm/).
+    Actuellement <span lang="en">Lead Designer</span> chez [Netlify](https://www.netlify.com/) et co-animateur du podcast [LayoutFM](http://layout.fm/).
   name: Rafael Conde
   twitter: rafahari
   website: https://rafaelconde.net/
 rozenn:
   bio: >
-    Diplômée d'un master en marketing, Rozenn a rejoint Jolicode en tant que Chief Happiness Officer et veille à ce titre au bonheur des troupes depuis mars 2016.
+    Diplômée d'un master en marketing, Rozenn a rejoint Jolicode en tant que <span lang="en">Chief Happiness Officer</span> et veille à ce titre au bonheur des troupes depuis mars 2016.
   name: Rozenn Bodin
   twitter: RozennBodin
 sabine:
   bio: >
-    Cofondatrice de [1001pharmacies.com](http://www.1001pharmacies.com/) qu’elle quitte mi-2016, Sabine accompagne actuellement d'autres startups tout en préparant sa prochaine boîte.
+    Cofondatrice de [1001pharmacies.com](http://www.1001pharmacies.com/) qu’elle quitte mi-2016, Sabine accompagne actuellement d'autres startups tout en préparant sa prochaine boite.
   name: Sabine Safi
   twitter: SabineSafi
   website: https://medium.com/@SabineSafi
 sylvain_etienne:
   bio: >
-  name: Etienne Voilliot
+  name: Sylvain Achard et Étienne Voilliot
+  slug: sylvain-achard-et-etienne-voilliot
 valerie:
   bio: >
-    Intégratrice web freelance et enseignante chez Mediaschool Nice.Très sensible à l’accessibilité web, Valérie est passionnée par mon métier mais aussi par les livres, c'est une vraie *bookworm*, une dévoreuse de livres.
+    Intégratrice web freelance et enseignante chez Mediaschool Nice. Très sensible à l’accessibilité web, Valérie est passionnée par mon métier mais aussi par les livres, c'est une vraie <span lang="en">bookworm</span>, une dévoreuse de livres.
   name: Valérie Galassi
   twitter: ChapitreOnze
+  slug: valerie-galassi

@@ -1,7 +1,7 @@
 # Primary navigation links
 primary:
-  - name: "Sud Web"
-    url: "/"
+  - name: "Programme"
+    url: "/programme/"
   - name: "Lieux"
     url: "/lieux/"
   - name: "Inscription"

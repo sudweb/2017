@@ -1,11 +1,82 @@
-# Orateurs
-
-clark:
-  name: Clark Kent
-  bio: >-
-    Né Kal-el sur la planète Krypton, il a été recueilli par la famille Kent. Sous sous identité de Clark, il travaille aujourd'hui pour le Daily Planet avec Loïs Lane. Quand un danger menace, il enfile sa tenue de Superman pour sauver l'espèce humaine d'elle même.
-  location: Métropolis
-  country: United Kingdom
-  twitter: superman
-  avatar: default
-  website: http://www.dccomics.com/characters/superman
+adeline:
+  bio: >
+    Dévoreuse de livres jeunesse, Adeline est la porte-parole multi-casquettes de [Whisperies](https://www.whisperies.com/).
+  name: Adeline Fradet
+  twitter: AdelineWHI
+  website: https://www.whisperies.com/
+bruno:
+  bio: Développeur web à la barbe majestueuse spécialisé dans l’écosystème JavaScript et les anecdotes sur la gouvernance des projets open-source. Étudiant éternel en tapotage de clavier.
+  name: Bruno Heridet
+  twitter: delapouite
+  website: http://delapouite.com/
+geoffrey:
+  bio: >
+    Geoffrey Dorne, designer indépendant et fondateur de Design & Human, agence de design éthique, sociale et radicale.
+  name: Geoffrey Dorne
+  twitter: GeoffreyDorne
+  website: http://geoffreydorne.com/
+helene:
+  bio: >
+    Maman, pâtissière, princesse et RH, le code qu'elle préfère, c'est celui du Travail !
+  name: Hélène Shapira
+  twitter: libellule
+  website: http://libelilou.github.io/
+jean-philippe:
+  bio: >
+    Designer graphique, directeur artistique et illustrateur indépendant. Cofondateur de [@TheWalkingWeb](https://twitter.com/TheWalkingWeb) et de [@strimeapp](https://twitter.com/strimeapp)
+  name: Jean-Philippe Cabaroc
+  twitter: Cabaroc
+  website: http://cabaroc.com/
+joel:
+  bio: >
+    Politologue de formation, Joël est le cofondateur de la coopérative Datactivist, spécialisée dans le conseil et l'accompagnement en open data.
+  name: Joel Gombin
+  twitter: joelgombin
+  website: http://datactivi.st/
+lucas:
+  bio: >
+    Après un passage à San Francisco et dans l'ecommerce, Lucas est désormais le premier Product Manager [@Algolia](https://www.algolia.com/). Son souhait ? Que les expériences de recherche désastreuses ne puissent plus exister 😊
+  name: Lucas Cerdan
+  twitter: lucascerdan
+  website: https://lucascerdan.com
+lucie:
+  bio: >
+    Graphiste-typographe-auteure-artiste-DA obsédée par le sens, attirée par l'expérimentation, créatrice de logos et raconteuse d'histoires.
+  name: Lucie Baratte
+  twitter: LucieBaratte
+  website: http://www.kaleidoscopeye.com/
+marie:
+  bio: >
+    Consultante technique chez KRDS (qui fait aussi Commitstrip) depuis toujours. Ballotée entre la France et l’Inde, le code, les specs et les hommes.
+  name: Marie Perrier
+nicolas_cyril:
+  bio: >
+    Cyril et Nicolas sont les co-fondateurs d'[alwaysdata.com](https://alwaysdata.com), une plateforme d’hébergement qui se veut performante, moderne, et humaine.
+  name: Nicolas Ferrari et Cyril Baÿ
+  twitter: alwaysdata
+  website: https://alwaysdata.com
+rafael:
+  bio: >
+    Actuellement Lead Designer chez [Netlify](https://www.netlify.com/) et co-animateur du podcast [LayoutFM](http://layout.fm/).
+  name: Rafael Conde
+  twitter: rafahari
+  website: https://rafaelconde.net/
+rozenn:
+  bio: >
+    Diplômée d'un master en marketing, Rozenn a rejoint Jolicode en tant que Chief Happiness Officer et veille à ce titre au bonheur des troupes depuis mars 2016.
+  name: Rozenn Bodin
+  twitter: RozennBodin
+sabine:
+  bio: >
+    Cofondatrice de [1001pharmacies.com](http://www.1001pharmacies.com/) qu’elle quitte mi-2016, Sabine accompagne actuellement d'autres startups tout en préparant sa prochaine boîte.
+  name: Sabine Safi
+  twitter: SabineSafi
+  website: https://medium.com/@SabineSafi
+sylvain_etienne:
+  bio: >
+  name: Etienne Voilliot
+valerie:
+  bio: >
+    Intégratrice web freelance et enseignante chez Mediaschool Nice.Très sensible à l’accessibilité web, Valérie est passionnée par mon métier mais aussi par les livres, c'est une vraie *bookworm*, une dévoreuse de livres.
+  name: Valérie Galassi
+  twitter: ChapitreOnze

@@ -7,29 +7,28 @@ description: Les conférences au programme de l'édition 2017 de Sud Web.
   <div class="wrapper">
     <div class="content">
       <h1 class="title">Programme</h1>
-      <p class="sstitle">Un mélange de saveurs unique concocté avec soin</p>
+      <p class="sstitle">Des conférences variées pour un public curieux.</p>
     </div>
   </div>
 </header>
 
-<div class="cta-zone-1 section-margin">
-  <div class="wrapper">
-    <div class="grid-2 text-center">
-      <section>
-        <h2 class="cta-title">Deux journées</h2>
-        <p>Une journée de conférences et une journée d'élaboratoires pour sortir de sa zone de confort en&nbsp;toute&nbsp;sécurité.</p>
-        <a class="cta button-type1" href="{{ site.baseurl }}/inscription/#billetterie" data-event-category="cta" data-event-action="click" data-event-label="programme-inscription-intro">Je m'inscris</a>
-      </section>
-      <section>
-        <h2 class="cta-title">Deux lieux</h2>
-        <p>En plein cœur d'Aix-en-Provence et adaptés à l'esprit de chaque journée : du confort pour les conférences,&nbsp;de la modularité pour&nbsp;les&nbsp;élaboratoires.</p>
-        <a class="cta button-type1" href="{{ site.baseurl }}/lieux">Repérez les lieux</a>
-      </section>
-    </div>
-  </div>
+<div class="talk-banner">
+  <!-- nothing here! -->
 </div>
 
 <main>
+  <nav class="schedule-nav">
+    <div class="wrapper container">
+      <a href="#conferences">
+        <time datetime="2017-05-19T09:00+1//2016-05-27T18:00+1">Vendredi 19 mai</time> Conférences
+      </a>
+      <a href="#openspace">
+        <time datetime="2017-05-20T09:00+1//2016-05-27T18:00+1">Samedi 20 mai</time> Forum Ouvert</a>
+      <a href="#after">
+        Soirées
+      </a>
+    </div>
+  </nav>
 
   <!-- VENDREDI -->
   <article id="conferences">
@@ -38,7 +37,7 @@ description: Les conférences au programme de l'édition 2017 de Sud Web.
       <div class="wrapper text-center">
         <h2 class="great-title-size red uppercase">Vendredi,&nbsp;faire le plein d'inspiration</h2>
         <p>
-          Des retours d'expérience pour alimenter nos réflexions, découvrir de nouveaux horizons et mieux comprendre le sens de nos métiers.
+          Des retours d'expérience pour alimenter nos réflexions, s'ouvrir à d'autres cultures et mieux comprendre les différents métiers du web.
         </p>
       </div>
     </header>
@@ -52,6 +51,9 @@ description: Les conférences au programme de l'édition 2017 de Sud Web.
 
         <div class="grid-1">
           {% include speakers.html %}
+        </div>
+        <div class="text-center">
+          <a class="cta button-type1" href="{{ site.baseurl }}/inscription/#billetterie" data-event-category="cta" data-event-action="click" data-event-label="programme-inscription-vendredi">J'y vais !</a>
         </div>
       </div>
     </section>
@@ -123,6 +125,9 @@ description: Les conférences au programme de l'édition 2017 de Sud Web.
         <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="orange svg-size" viewBox="0 0 400 400"><use xlink:href="{{ site.baseurl }}/assets/images/symbol-defs.svg#rocket" /></svg>
         <p class="h-like tiny-title-size">La loi des deux pieds</p>
         <p>&Agrave; partir du moment où vous n’êtes plus en train d’apprendre ni de contribuer, vous êtes libres à tout moment de changer de session. Allez et venez autant que vous le voulez.</p>
+        <div class="text-center">
+          <a class="cta button-type1" href="{{ site.baseurl }}/inscription/#billetterie" data-event-category="cta" data-event-action="click" data-event-label="programme-inscription-samedi">J'y vais !</a>
+        </div>
       </div>
     </section>
   </article>

@@ -31,7 +31,6 @@ _site/
 .sass-cache/
 .jekyll-metadata
 Gemfile.lock
-_data/attendees.json
 
 # Mac OS
 .DS_Store

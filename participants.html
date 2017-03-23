@@ -2,8 +2,6 @@
 title: Participants
 description: "Une conférene à visages humains"
 permalink: /participants/
-sitemap: false
-published: false
 ---
 
 <header class="page-header">
@@ -19,7 +17,7 @@ published: false
 	<article class="white-section">
 
 		<div class="wrapper text-center">
-      {% assign attendees = site.data.attendees | where: "hide",null | sort: "name" | uniq: "name" %}
+      {% assign attendees = site.data.attendees | sort: "name" | uniq: "name" %}
   		{% assign default-avatar = "/assets/images/default-avatar.png" %}
   		{% assign super-woman = "/assets/images/super-woman.png" %}
 

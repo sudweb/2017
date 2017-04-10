@@ -5,8 +5,8 @@ description: |
 speaker:
   - rafael # reference correspondant à celle du fichier spearkers dans _data
 type: conference
-symbol: expe # icone
-date: 2017-05-19 09:15:00 +0100 # heure de début du talk
+symbol: expe # crea expe well educ
+date: 2017-05-19 10:15:00 +0200 # heure de début du talk
 lang: en # langue du talk
 display-order: 3 # ordre d'affichage sur le site
 video: # url vers la video

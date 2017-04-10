@@ -5,8 +5,8 @@ description: |
 speaker:
   - adeline
 type: conference
-symbol: crea
-date: 2017-05-19 08:15:00 +0100
+symbol: crea # crea expe well educ
+date: 2017-05-19 09:15:00 +0200
 lang: fr
 display-order: 1
 video: # url vers la video

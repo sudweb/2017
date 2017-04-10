@@ -6,7 +6,7 @@ speaker:
   - valerie # reference correspondant à celle du fichier spearkers dans _data
 type: lt
 symbol: well # icone
-date: 2017-05-19 13:50:00 +0100 # heure de début du talk
+date: 2017-05-19 14:50:00 +0200 # heure de début du talk
 lang: fr # langue du talk
 display-order: 10 # ordre d'affichage sur le site
 video: # url vers la video

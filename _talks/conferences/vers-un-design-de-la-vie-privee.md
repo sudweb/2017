@@ -6,7 +6,7 @@ speaker:
   - geoffrey
 type: conference
 symbol: crea
-date: 2017-05-19 14:55:00 +0100 # heure de début du talk
+date: 2017-05-19 15:55:00 +0200 # heure de début du talk
 lang: fr # langue du talk
 display-order: 12 # ordre d'affichage sur le site
 video: # url vers la video

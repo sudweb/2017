@@ -5,8 +5,8 @@ description: |
 speaker:
   - lucie # reference correspondant à celle du fichier spearkers dans _data
 type: conference
-symbol: crea # icone
-date: 2017-05-19 13:55:00 +0100 # heure de début du talk
+symbol: crea # crea expe well educ
+date: 2017-05-19 14:55:00 +0200 # heure de début du talk
 lang: fr # langue du talk
 display-order: 11 # ordre d'affichage sur le site
 video: # url vers la video

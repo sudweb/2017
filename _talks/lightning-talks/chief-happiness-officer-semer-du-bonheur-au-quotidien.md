@@ -6,7 +6,7 @@ speaker:
   - rozenn
 type: lt
 symbol: well
-date: 2017-05-19 15:30:00 +0100 # heure de début du talk
+date: 2017-05-19 16:30:00 +0200 # heure de début du talk
 lang: fr
 display-order: 14
 video: # url vers la video

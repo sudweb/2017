@@ -6,7 +6,7 @@ speaker:
   - helene
 type: lt
 symbol: educ
-date: 2017-05-19 15:25:00 +0100 # heure de début du talk
+date: 2017-05-19 16:25:00 +0200 # heure de début du talk
 lang: fr # langue du talk
 display-order: 13 # ordre d'affichage sur le site
 video: # url vers la video

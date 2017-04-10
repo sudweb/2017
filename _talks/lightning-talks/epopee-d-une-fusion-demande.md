@@ -6,7 +6,7 @@ speaker:
   - bruno # reference correspondant à celle du fichier spearkers dans _data
 type: lt
 symbol: educ # icone
-date: 2017-05-19 09:45:00 +0100 # heure de début du talk
+date: 2017-05-19 10:45:00 +0200 # heure de début du talk
 lang: fr # langue du talk
 display-order: 4 # ordre d'affichage sur le site
 video: # url vers la video

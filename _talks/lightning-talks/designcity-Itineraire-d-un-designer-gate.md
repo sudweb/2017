@@ -8,7 +8,7 @@ speaker:
   - jean-philippe # reference correspondant à celle du fichier spearkers dans _data
 type: lt
 symbol: crea # icone
-date: 2017-05-19 13:45:00 +0100 # heure de début du talk
+date: 2017-05-19 14:45:00 +0200 # heure de début du talk
 lang: fr # langue du talk
 display-order: 9 # ordre d'affichage sur le site
 video: # url vers la video

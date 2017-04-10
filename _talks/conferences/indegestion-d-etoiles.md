@@ -7,8 +7,8 @@ description: |
 speaker:
   - sabine
 type: conference
-symbol: well
-date: 2017-05-19 15:35:00 +0100
+symbol: well # crea expe well educ
+date: 2017-05-19 16:35:00 +0200
 lang: fr
 display-order: 15
 video: # url vers la video

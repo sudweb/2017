@@ -8,7 +8,7 @@ speaker:
   - lucas # reference correspondant à celle du fichier spearkers dans _data
 type: conference
 symbol: expe # icone
-date: 2017-05-19 14:15:00 +0100 # heure de début du talk
+date: 2017-05-19 13:15:00 +0100 # heure de début du talk
 lang: fr # langue du talk
 display-order: 8 # ordre d'affichage sur le site
 video: # url vers la video

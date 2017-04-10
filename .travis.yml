@@ -14,7 +14,7 @@ install:
 # - script/gen-attendees
 script: script/cibuild
 addons:
-  ssh_known_hosts: ssh.alwaysdata.com
+  ssh_known_hosts: ssh-sudweb.alwaysdata.net
 before_deploy:
 - eval "$(ssh-agent -s)"
 - chmod 600 $TRAVIS_BUILD_DIR/deploy_rsa

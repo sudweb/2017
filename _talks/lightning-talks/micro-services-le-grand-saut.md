@@ -6,7 +6,7 @@ speaker:
   - sylvain_etienne # reference correspondant à celle du fichier spearkers dans _data
 type: lt
 symbol: expe # icone
-date: 2017-05-19 11:50:00 +0100 # heure de début du talk
+date: 2017-05-19 10:50:00 +0100 # heure de début du talk
 lang: fr # langue du talk
 display-order: 6 # ordre d'affichage sur le site
 video: # url vers la video

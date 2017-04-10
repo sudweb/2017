@@ -6,7 +6,7 @@ speaker:
   - nicolas_cyril
 type: conference
 symbol: educ # icone
-date: 2017-05-19 11:55:00 +0100 # heure de début du talk
+date: 2017-05-19 10:55:00 +0100 # heure de début du talk
 lang: fr # langue du talk
 display-order: 7 # ordre d'affichage sur le site
 video: # url vers la video

@@ -5,12 +5,12 @@ description: |
 
   Tant qu'on ne se pose pas trop de questions, on peut tous vivre (travailler) ainsi parmi les étoiles... Hey, on ne se pose pas de questions, on a dit&nbsp;!
 speaker:
-  - sabine # reference correspondant à celle du fichier spearkers dans _data
+  - sabine
 type: conference
-symbol: well # icone
-date: 2017-05-19 16:35:00 +0100 # heure de début du talk
-lang: fr # langue du talk
-display-order: 15 # ordre d'affichage sur le site
+symbol: well
+date: 2017-05-19 15:35:00 +0100
+lang: fr
+display-order: 15
 video: # url vers la video
 slides:  # url du support de présentation
 ---

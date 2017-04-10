@@ -22,7 +22,7 @@ before_deploy:
 deploy:
   provider: script
   skip_cleanup: true
-  script: rsync -r --delete-after --quiet --exclude 'deploy_rsa*' $TRAVIS_BUILD_DIR/_site/2017/ sudweb@ssh.alwaysdata.com:www/2017
+  script: rsync -r --delete-after --quiet --exclude 'deploy_rsa*' $TRAVIS_BUILD_DIR/_site/2017/ sudweb@ssh-sudweb.alwaysdata.net:www/2017
   on:
     branch: master
 env:

@@ -23,6 +23,11 @@
   title: "Hébergement et Infogérance Open Source"
   logo: evolix.svg
   level: silver
+- name: Wonderful
+  website: http://webfactory.wonderful.fr/
+  title: "Vos utilisateurs méritent une autre expérience"
+  logo: wonderful.svg
+  level: silver
 - name: Mozilla
   website: https://www.mozilla.org/fr/
   title: "Internet est un bien commun, nous le défendons."

@@ -18,6 +18,11 @@
   title: "Expert en Projets Web et Mobiles"
   logo: acseo.png
   level: silver
+- name: Oscaro
+  website: "https://www.oscaro.com/"
+  title: "N°1 des pièces auto neuves et d'origine sur Internet"
+  logo: oscaro.svg
+  level: silver
 - name: Evolix
   website: http://evolix.com/
   title: "Hébergement et Infogérance Open Source"

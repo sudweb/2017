@@ -18,13 +18,37 @@ permalink: /participants/
 
 		<div class="wrapper text-center">
       {% assign attendees = site.data.attendees | sort: "name" | uniq: "name" %}
+      {% assign conferences = site.talks | sort: "speaker" %}
+      {% assign members = site.data.thym_members | sort: "name" %}
+
+      {% assign total_attendees = attendees | size %}
+      {% assign total_speakers = conferences | size | plus: 2 %}
+      {% assign total_members = members | size %}
+
   		{% assign default-avatar = "/assets/images/default-avatar.png" %}
   		{% assign super-woman = "/assets/images/super-woman.png" %}
 
-			<h2 class="great-title-size red uppercase">{{ attendees | size }} super-héros</h2>
+			<h2 class="great-title-size red uppercase">{{ total_attendees | plus: total_speakers | plus: total_members }} super-héros</h2>
 		</div>
 
+
 		<div class="grid-4 text-center">
+
+      <!-- Speakers -->
+      {% for conference in conferences %}
+        {% for names in conference.speaker %}
+          {% assign speaker = site.data.speakers[names] %}
+          <section class="attendee">
+            <figure class="attendee-avatar">
+              <img src="{{ site.baseurl}}/assets/images/orateurs/{% if speaker.slug %}{{ speaker.slug }}{% else %}{{ speaker.name | slugify }}{% endif %}.jpg" alt="{{ speaker.name }}">
+            </figure>
+            <h3 class="attendee-name">{{ speaker.name }}</h3>
+            {% if speaker.twitter %}
+            <a href="https://twitter.com/{{ orateur.twitter }}">@{{ speaker.twitter }}</a>
+            {% endif %}
+          </section>
+        {% endfor %}
+      {% endfor %}
 
     {% for attendee in attendees %}
   		<section class="attendee {% if attendee.ticket_type == '667251' %} golden-ticket{% endif %}">
@@ -44,6 +68,16 @@ permalink: /participants/
   			{% endif %}
   		</section>
     {% endfor %}
+
+    {% for member in members %}
+     <section class="attendee">
+       <figure class="attendee-avatar"><img src="https://twitter.com/{{ member.twitter }}/profile_image?size=bigger" alt="">
+       </figure>
+       <h3 class="attendee-name">{{ member.name }}</h3>
+       <a href="https://twitter.com/{{ member.twitter }}">@{{ member.twitter }}</a>
+     </section>
+     {% endfor %}
+
 	  </div>
 	</article>
 

@@ -27,6 +27,7 @@ build/Release
 node_modules
 
 # Jekyll
+_data/attendees.json
 _site/
 .sass-cache/
 .jekyll-metadata

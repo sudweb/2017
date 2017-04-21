@@ -51,7 +51,7 @@ permalink: /participants/
       {% endfor %}
 
     {% for attendee in attendees %}
-  		<section class="attendee {% if attendee.ticket_type == '667251' %} golden-ticket{% endif %}">
+  		<section class="attendee">
   			<figure class="attendee-avatar">
   				{% if attendee.twitter %}
   				<img src="https://twitter.com/{{ attendee.twitter }}/profile_image?size=bigger" alt="Super Avatar">

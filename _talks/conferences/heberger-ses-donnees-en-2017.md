@@ -10,5 +10,5 @@ date: 2017-05-19 11:55:00 +0200 # heure de début du talk
 lang: fr # langue du talk
 display-order: 7 # ordre d'affichage sur le site
 video: # url vers la video
-slides:  # url du support de présentation
+slides: http://slides.com/nferrari/data-hosting-2017#/
 ---

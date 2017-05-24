@@ -10,5 +10,5 @@ date: 2017-05-19 09:45:00 +0200 # heure UTC +200 (heure d'été)
 lang: fr # langue du talk
 display-order: 2 # ordre d'affichage sur le site
 video: # url vers la video
-slides:  # url du support de présentation
+slides: https://slides.com/mterrier/ajourneyinindia/
 ---

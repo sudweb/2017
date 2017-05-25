@@ -37,7 +37,7 @@ description: Les conférences au programme de l'édition 2017 de Sud Web.
       <div class="wrapper text-center">
         <h2 class="great-title-size red uppercase">Vendredi,&nbsp;faire le plein d'inspiration</h2>
         <p>
-          Des retours d'expérience pour alimenter nos réflexions, s'ouvrir à d'autres cultures et mieux comprendre les différents métiers du web.
+          Des retours d'expérience pour alimenter nos réflexions, s'ouvrir à d'autres cultures et mieux comprendre les différents enjeux autour des métiers du web.
         </p>
       </div>
     </header>
@@ -47,14 +47,12 @@ description: Les conférences au programme de l'édition 2017 de Sud Web.
       <div class="wrapper text-center">
         {% assign conferences = site.talks | sort: "display-order" %} {% assign number_of_conferences = conferences | where_exp:"item","item.type != 'pause'"| size %}
         <h3 class="conf-title regular-title-size uppercase">{{ number_of_conferences }} conférences</h3>
-        <p>Une sélection unique et variée qui devrait vous parler.</p>
+        <p>Une sélection unique et variée.</p>
 
         <div class="grid-1">
           {% include speakers.html %}
         </div>
-        <div class="text-center">
-          <a class="cta button-type1" href="{{ site.baseurl }}/inscription/#billetterie" data-event-category="cta" data-event-action="click" data-event-label="programme-inscription-vendredi">J'y vais !</a>
-        </div>
+
       </div>
     </section>
 
@@ -71,6 +69,11 @@ description: Les conférences au programme de l'édition 2017 de Sud Web.
       </div>
     </section>
   </article>
+
+
+  <div class="openspace-banner">
+    <!-- nothing here! -->
+  </div>
 
   <!-- SAMEDI -->
   <article id="openspace">
@@ -125,9 +128,6 @@ description: Les conférences au programme de l'édition 2017 de Sud Web.
         <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="orange svg-size" viewBox="0 0 400 400"><use xlink:href="{{ site.baseurl }}/assets/images/symbol-defs.svg#rocket" /></svg>
         <p class="h-like tiny-title-size">La loi des deux pieds</p>
         <p>&Agrave; partir du moment où vous n’êtes plus en train d’apprendre ni de contribuer, vous êtes libres à tout moment de changer de session. Allez et venez autant que vous le voulez.</p>
-        <div class="text-center">
-          <a class="cta button-type1" href="{{ site.baseurl }}/inscription/#billetterie" data-event-category="cta" data-event-action="click" data-event-label="programme-inscription-samedi">J'y vais !</a>
-        </div>
       </div>
     </section>
   </article>

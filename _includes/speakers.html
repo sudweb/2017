@@ -8,7 +8,7 @@
   </figure>
   {% endif %}
 
-  <h4 class="pres-title tiny-title-size" id="{{ conference.title | slugify }}">{{ conference.date | date: "%Hh%M" }} : {{ conference.title }} <a class="orange link" href="#{{ conference.title | slugify }}"><svg class="svg-size" viewBox="0 0 400 400"><use xlink:href="{{ site.baseurl }}/assets/images/symbol-defs.svg#link" /></svg></a></h4>
+  <h4 class="pres-title tiny-title-size" id="{{ conference.title | slugify }}">{% comment %}{{ conference.date | date: "%Hh%M" }} : {% endcomment %}{{ conference.title }} <a class="orange link" href="#{{ conference.title | slugify }}"><svg class="svg-size" viewBox="0 0 400 400"><use xlink:href="{{ site.baseurl }}/assets/images/symbol-defs.svg#link" /></svg></a></h4>
 
   <div class="pres-desc">
     {{ conference.description | markdownify }}

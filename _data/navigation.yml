@@ -1,10 +1,6 @@
 # Primary navigation links
 primary:
-  - name: "Programme"
-    url: "/programme/"
+  - name: "Conférences"
+    url: "/"
   - name: "Lieux"
     url: "/lieux/"
-  - name: "Inscription"
-    url: "/inscription/"
-  - name: "Participants"
-    url: "/participants/"

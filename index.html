@@ -1,163 +1,300 @@
----
+--- 
 title: La conférence web super humaine
-description: Sud Web 2017, les 19 et 20 mai à Aix-en-Provence
+description: Deux journées pour faire le plein d’inspiration entre super-héros du web. 
 ---
 
-<header class="page-header">
+<div class="cta-zone-1 section-margin">
   <div class="wrapper">
-    <div class="content">
-      <h1 class="title">Partageons nos super-pouvoirs</h1>
-      <p class="sstitle"><em>Sud Web</em> est <em>la</em> conférence itinérante des travailleurs du web pour apprendre, comprendre et partager nos expériences.</p>
-    </div>
-  </div>
-</header>
-
-<div class="next-step-banner banner-white">
-  <div class="wrapper text-center">
-    <h2 class="regular-title-size">Prochain épisode</h2>
-    <h3 class="regular-title-size red">les 19 et 20 mai 2017 au coeur d'Aix-en-Provence</h3>
-    <div class="grid-2 text-center">
+    <div class="text-center">
       <section>
-        <h2 class="cta-title">Deux journées</h2>
-        <p>Une journée de conférences et une journée de forum ouvert pour sortir de sa zone de confort en&nbsp;toute&nbsp;sécurité.</p>
-      </section>
-      <section>
-        <h2 class="cta-title">Deux lieux</h2>
-        <p>Adaptés à l'esprit de chaque journée : <a href="{{ site.baseurl }}/lieux">un cadre ouvert pour les conférences</a>,&nbsp;de la modularité pour&nbsp;le&nbsp;forum&nbsp;ouvert.</p>
+        <h2 class="cta-title">Merci Aix-en-Provence !</h2>
+        <p>Ces deux journées étaient géniales,<br> rendez-vous l'année prochaine dans un lieux encore inconnu&nbsp;!
+        </p>
       </section>
     </div>
-    <div>
-      <a class="cta button-type1" href="{{ "/programme/#conferences" | relative_url }}" data-event-category="cta" data-event-action="click" data-event-label="programme">Voir le programme</a>
-    </div>
+    <!--<div class="text-center">
+      <a class="cta button-type1" href="https://vimeo.com/album/3981563" data-event-category="cta" data-event-action="click" data-event-label="voir-videos">Voir les videos</a>
+    </div>-->
   </div>
 </div>
 
-<div class="darkgrey-section text-center">
-		<div class="wrapper">
-      <h2 class="great-title-size">Faites le plein d'inspiration !</h2>
-      <div class="grid-3">
-        <section>
-          <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
-            <use xlink:href="{{ site.baseurl }}/assets/images/symbol-defs.svg#tree" />
-          </svg>
-          <p><strong>Sortez</strong> de votre zone de confort et <strong>ouvrez</strong> votre esprit</p>
-        </section>
-        <section>
-          <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
-            <use xlink:href="{{ site.baseurl }}/assets/images/symbol-defs.svg#experience" />
-          </svg>
-          <p class="pres-desc"><strong>Expérimentez & apprenez</strong> durant ces  jours de conférences et d'ateliers</p>
-        </section>
-        <section>
-          <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
-            <use xlink:href="{{ site.baseurl }}/assets/images/symbol-defs.svg#muscle" />
-          </svg>
-          <p class="pres-desc"><strong>Repartez gonflés à bloc</strong> pour ne plus voir vos lundi de la même façon</p>
-        </section>
-      </div>
-		</div>
-	</div>
+<div class="thanks-banner">
+  <!-- nothing here! -->
+</div>
 
-  <div class="icon-section text-center">
-    <div class="wrapper">
-      <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
-        <use xlink:href="{{ site.baseurl }}/assets/images/symbol-defs.svg#cake" />
-      </svg>
-      <p>... et de la <strong>bonne bouffe</strong> pour gonfler les muscles et le bidon !</p>
+<!-- VENDREDI -->
+<article id="conferences">
+  <!-- INTRO -->
+  <header class="white-section">
+    <div class="wrapper text-center">
+      <h2 class="great-title-size red uppercase">Vendredi,&nbsp;faire le plein d'inspiration</h2>
+      <p>
+        Des retours d'expérience pour alimenter nos réflexions, s'ouvrir à d'autres cultures et mieux comprendre les différents métiers
+        du web.
+      </p>
     </div>
-  </div>
+  </header>
 
-  <section class="episode-numbers">
-    <div class="yellow-section text-center">
-      <div class="wrapper">
-        <h2 class="great-title-size uppercase">Un épisode, c'est…</h2>
-        <div class="grid-3">
-          <div class="numbers-item">
-            <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
-              <use xlink:href="{{ site.baseurl }}/assets/images/symbol-defs.svg#conference" />
-            </svg>
-            <span class="number-big">35</span>
-            <span class="legend">conférences et ateliers</span>
-          </div>
-          <div class="numbers-item">
-            <svg class="landscape" xmlns="http://www.w3.org/2000/svg" version="1.1">
-              <use xlink:href="{{ site.baseurl }}/assets/images/symbol-defs.svg#attendee" />
-            </svg>
-            <span class="number-big">150</span>
-            <span class="legend">participants</span>
-          </div>
-          <div class="numbers-item">
-            <svg class="big" xmlns="http://www.w3.org/2000/svg" version="1.1">
-              <use xlink:href="{{ site.baseurl }}/assets/images/symbol-defs.svg#party" />
-            </svg>
-            <span class="number-big">2</span>
-            <span class="legend">soirées</span>
-          </div>
+  <!-- CONFERENCES -->
+  <section class="darkgrey-section">
+    <div class="wrapper text-center">
+      {% assign conferences = site.talks | sort: "display-order" %} {% assign number_of_conferences = conferences | size %}
+      <h3 class="conf-title regular-title-size uppercase">{{ number_of_conferences }} conférences</h3>
+      <p>Une sélection unique et variée qui devrait vous parler.</p>
+
+      <div class="grid-2">
+        {% include speakers.html %}
+      </div>
+    </div>
+  </section>
+
+  <section class="orange-section">
+    <div class="wrapper text-center">
+      <h3 class="onemorething-title regular-title-size uppercase">De loooongues pauses</h3>
+      <p>Les entractes durent 30 minutes et la pause déjeuner dure 2 heures.</p>
+      <p>
+        C'est le temps idéal pour se reposer, prendre le temps de rencontrer de nouvelles têtes et de tailler une bavette entre potes
+        (<em>valable également pour les végétariens</em>).
+      </p>
+      <!-- <div class="text-center">
+            <a class="cta button-type4" href="#">Découvrez le programme complet</a>
+          </div> -->
+    </div>
+  </section>
+</article>
+
+<!-- SAMEDI -->
+<article id="openspace">
+  <header class="white-section">
+    <div class="wrapper text-center">
+      <h2 class="great-title-size red uppercase">Forum ouvert</h2>
+      <div class="grid-3 text-center">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-size" viewBox="0 0 400 400">
+            <use xlink:href="{{ site.baseurl }}/assets/images/symbol-defs.svg#clap" />
+          </svg>
+          <p><strong>Une journée auto-organisée</strong> dont vous êtes les principaux acteurs.</p>
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-size" viewBox="0 0 400 400">
+            <use xlink:href="{{ site.baseurl }}/assets/images/symbol-defs.svg#move" />
+          </svg>
+          <p><strong>Vous êtes libres</strong> de passer d’une session à l’autre à tout moment.</p>
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-size" viewBox="0 0 400 400">
+            <use xlink:href="{{ site.baseurl }}/assets/images/symbol-defs.svg#write" />
+          </svg>
+          <p><strong>Vous soumettez des sujets</strong> sur lesquels vous réfléchissez avec les autres participants.</p>
         </div>
       </div>
     </div>
-    <div class="yellowdark-section text-center">
-      <div class="wrapper">
-        <div class="grid-3">
-          <div class="numbers-item">
-            <svg class="landscape" xmlns="http://www.w3.org/2000/svg" version="1.1">
-              <use xlink:href="{{ site.baseurl }}/assets/images/symbol-defs.svg#emotion" />
-            </svg>
-            <span class="number-big">101</span>
-            <span class="legend">moments d'émotion</span>
-          </div>
-          <div class="numbers-item logo">
-            <svg class="sw-logo regular" viewBox="0 0 500 276.37">
-                <use id="sw-hands" xlink:href="{{ site.baseurl }}/assets/images/symbol-defs.svg#sw-hands" />
-                <use id="sw-hands-shadows" xlink:href="{{ site.baseurl }}/assets/images/symbol-defs.svg#sw-hands-shadows" />
-                <use id="sw-heart" xlink:href="{{ site.baseurl }}/assets/images/symbol-defs.svg#sw-heart" />
-                <use id="sw-heart-top" xlink:href="{{ site.baseurl }}/assets/images/symbol-defs.svg#sw-heart-top" />
-                <use id="sw-wave-shadow" xlink:href="{{ site.baseurl }}/assets/images/symbol-defs.svg#sw-wave-shadow" />
-                <use id="sw-wave" xlink:href="{{ site.baseurl }}/assets/images/symbol-defs.svg#sw-wave" />
-            </svg>
-          </div>
-          <div class="numbers-item">
-            <svg class="landscape" xmlns="http://www.w3.org/2000/svg" version="1.1">
-              <use xlink:href="{{ site.baseurl }}/assets/images/symbol-defs.svg#discussion" />
-            </svg>
-            <span class="number-big">879</span>
-            <span class="legend">discussions</span>
-          </div>
+  </header>
+
+  <section class="orange-section">
+    <div class="wrapper text-center">
+      <h3 class="regular-title-size uppercase">Quatre principes et une loi</h3>
+      <div class="grid-4 text-center">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="white svg-size" viewBox="0 0 400 400">
+            <use xlink:href="{{ site.baseurl }}/assets/images/symbol-defs.svg#people" />
+          </svg>
+          <p class="h-like tiny-title-size">Les personnes présentes sont les bonnes personnes</p>
         </div>
-      </div>
-    </div>
-    <div class="yellow-section text-center">
-      <div class="wrapper">
-        <div class="grid-3">
-          <div class="numbers-item">
-            <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
-              <use xlink:href="{{ site.baseurl }}/assets/images/symbol-defs.svg#views" />
-            </svg>
-            <span class="number-big">7647</span>
-            <span class="legend">vidéos lues</span>
-          </div>
-          <div class="numbers-item">
-            <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
-              <use xlink:href="{{ site.baseurl }}/assets/images/symbol-defs.svg#hours" />
-            </svg>
-            <span class="number-big">8</span>
-            <span class="legend">bénévoles</span>
-          </div>
-          <div class="numbers-item">
-            <svg class="landscape mt0" xmlns="http://www.w3.org/2000/svg" version="1.1">
-              <use xlink:href="{{ site.baseurl }}/assets/images/symbol-defs.svg#happy" />
-            </svg>
-            <svg class="in" xmlns="http://www.w3.org/2000/svg" version="1.1">
-              <use xlink:href="{{ site.baseurl }}/assets/images/symbol-defs.svg#loop" />
-            </svg>
-            <span class="legend">de bonheur</span>
-          </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="white svg-size" viewBox="0 0 400 400">
+            <use xlink:href="{{ site.baseurl }}/assets/images/symbol-defs.svg#thumb" />
+          </svg>
+          <p class="h-like tiny-title-size">Il arrive ce qui pouvait arriver de mieux</p>
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="white svg-size" viewBox="0 0 400 400">
+            <use xlink:href="{{ site.baseurl }}/assets/images/symbol-defs.svg#clock" />
+          </svg>
+          <p class="h-like tiny-title-size">&Ccedil;a commence quand ça commence</p>
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="white svg-size" viewBox="0 0 400 400">
+            <use xlink:href="{{ site.baseurl }}/assets/images/symbol-defs.svg#stop" />
+          </svg>
+          <p class="h-like tiny-title-size">&Ccedil;a finit quand c’est fini</p>
         </div>
       </div>
     </div>
   </section>
 
+  <section class="white-section">
+    <div class="wrapper text-center">
+      <p>Partons sur des bases saines : c’est vous qui contribuez et qui construisez cette journée afin d'en retirer le maximum.
+        Si aucun des sujets proposés ne vous convient, alors à vous d’en proposer un.</p>
+      <p>Le cadre est posé, maintenant il ne vous reste plus qu'à retenir une chose :</p>
+      <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="orange svg-size" viewBox="0 0 400 400">
+        <use xlink:href="{{ site.baseurl }}/assets/images/symbol-defs.svg#rocket" />
+      </svg>
+      <p class="h-like tiny-title-size">La loi des deux pieds</p>
+      <p>&Agrave; partir du moment où vous n’êtes plus en train d’apprendre ni de contribuer, vous êtes libres à tout moment
+        de changer de session. Allez et venez autant que vous le voulez.</p>
+    </div>
+  </section>
+</article>
 
-  <div class="thanks-banner">
-        <!-- nothing here! -->
+<div class="forum-banner">
+  <!-- nothing here! -->
+</div>
+
+<article id="after">
+
+  <!-- INTRO -->
+  <header class="white-section">
+    <div class="wrapper text-center">
+      <h2 class="great-title-size red uppercase">Après l'effort, le réconfort</h2>
+      <p>Afin de prolonger les discussions et passer un bon moment, les super-héros se retrouvent autour d’un verre et d'une
+        bonne table. Vous pouvez vous joindre à eux, même si vous n'étiez pas présent pendant les conférences.</p>
+    </div>
+  </header>
+
+  <section class="white-section">
+    <div class="wrapper text-center">
+      <h3 class="regular-title-size uppercase">Moments de détente</h3>
+      <div class="grid-3">
+        <section>
+          <h4 class="tiny-title-size">
+            <time>Jeudi 18 mai</time><br> Veillée communautaire</h4>
+          <p>Première rencontre informelle avant les conférences du lendemain.</p>
+        </section>
+        <section>
+          <h4 class="tiny-title-size">
+            <time>Vendredi 19 mai</time><br> Soirée communautaire</h4>
+          <p>Pour prolonger les échanges après les conférences dans un lieu sympa. Inclus dans le pass, mais ouverte à tout
+            le monde.</p>
+        </section>
+        <section>
+          <h4 class="tiny-title-size">
+            <time>Dimanche 22 mai</time><br> L’after</h4>
+          <p>Encore sur place ? Profitez du dimanche pour <a href="{{ site.baseurl }}/lieux/#aix">vous ballader dans les rues d'Aix-en-Provence</a></p>
+        </section>
+      </div>
+    </div>
+  </section>
+
+</article>
+
+<div class="food-banner">
+  <!-- nothing here! -->
+</div>
+
+<div class="darkgrey-section text-center">
+  <div class="wrapper">
+    <h2 class="great-title-size">Faites le plein d'inspiration !</h2>
+    <div class="grid-3">
+      <section>
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+          <use xlink:href="{{ site.baseurl }}/assets/images/symbol-defs.svg#tree" />
+        </svg>
+        <p><strong>Sortez</strong> de votre zone de confort et <strong>ouvrez</strong> votre esprit</p>
+      </section>
+      <section>
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+          <use xlink:href="{{ site.baseurl }}/assets/images/symbol-defs.svg#experience" />
+        </svg>
+        <p class="pres-desc"><strong>Expérimentez & apprenez</strong> durant ces jours de conférences et d'ateliers</p>
+      </section>
+      <section>
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+          <use xlink:href="{{ site.baseurl }}/assets/images/symbol-defs.svg#muscle" />
+        </svg>
+        <p class="pres-desc"><strong>Repartez gonflés à bloc</strong> pour ne plus voir vos lundi de la même façon</p>
+      </section>
+    </div>
   </div>
+</div>
+
+<section class="episode-numbers">
+  <div class="yellow-section text-center">
+    <div class="wrapper">
+      <h2 class="great-title-size uppercase">Un épisode, c'est…</h2>
+      <div class="grid-3">
+        <div class="numbers-item">
+          <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+            <use xlink:href="{{ site.baseurl }}/assets/images/symbol-defs.svg#conference" />
+          </svg>
+          <span class="number-big">35</span>
+          <span class="legend">conférences et ateliers</span>
+        </div>
+        <div class="numbers-item">
+          <svg class="landscape" xmlns="http://www.w3.org/2000/svg" version="1.1">
+            <use xlink:href="{{ site.baseurl }}/assets/images/symbol-defs.svg#attendee" />
+          </svg>
+          <span class="number-big">150</span>
+          <span class="legend">participants</span>
+        </div>
+        <div class="numbers-item">
+          <svg class="big" xmlns="http://www.w3.org/2000/svg" version="1.1">
+            <use xlink:href="{{ site.baseurl }}/assets/images/symbol-defs.svg#party" />
+          </svg>
+          <span class="number-big">2</span>
+          <span class="legend">soirées</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="yellowdark-section text-center">
+    <div class="wrapper">
+      <div class="grid-3">
+        <div class="numbers-item">
+          <svg class="landscape" xmlns="http://www.w3.org/2000/svg" version="1.1">
+            <use xlink:href="{{ site.baseurl }}/assets/images/symbol-defs.svg#emotion" />
+          </svg>
+          <span class="number-big">101</span>
+          <span class="legend">moments d'émotion</span>
+        </div>
+        <div class="numbers-item logo">
+          <svg class="sw-logo regular" viewBox="0 0 500 276.37">
+            <use id="sw-hands" xlink:href="{{ site.baseurl }}/assets/images/symbol-defs.svg#sw-hands" />
+            <use id="sw-hands-shadows" xlink:href="{{ site.baseurl }}/assets/images/symbol-defs.svg#sw-hands-shadows" />
+            <use id="sw-heart" xlink:href="{{ site.baseurl }}/assets/images/symbol-defs.svg#sw-heart" />
+            <use id="sw-heart-top" xlink:href="{{ site.baseurl }}/assets/images/symbol-defs.svg#sw-heart-top" />
+            <use id="sw-wave-shadow" xlink:href="{{ site.baseurl }}/assets/images/symbol-defs.svg#sw-wave-shadow" />
+            <use id="sw-wave" xlink:href="{{ site.baseurl }}/assets/images/symbol-defs.svg#sw-wave" />
+          </svg>
+        </div>
+        <div class="numbers-item">
+          <svg class="landscape" xmlns="http://www.w3.org/2000/svg" version="1.1">
+            <use xlink:href="{{ site.baseurl }}/assets/images/symbol-defs.svg#discussion" />
+          </svg>
+          <span class="number-big">879</span>
+          <span class="legend">discussions</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="yellow-section text-center">
+    <div class="wrapper">
+      <div class="grid-3">
+        <div class="numbers-item">
+          <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+            <use xlink:href="{{ site.baseurl }}/assets/images/symbol-defs.svg#views" />
+          </svg>
+          <span class="number-big">7647</span>
+          <span class="legend">vidéos lues</span>
+        </div>
+        <div class="numbers-item">
+          <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+            <use xlink:href="{{ site.baseurl }}/assets/images/symbol-defs.svg#hours" />
+          </svg>
+          <span class="number-big">8</span>
+          <span class="legend">bénévoles</span>
+        </div>
+        <div class="numbers-item">
+          <svg class="landscape mt0" xmlns="http://www.w3.org/2000/svg" version="1.1">
+            <use xlink:href="{{ site.baseurl }}/assets/images/symbol-defs.svg#happy" />
+          </svg>
+          <svg class="in" xmlns="http://www.w3.org/2000/svg" version="1.1">
+            <use xlink:href="{{ site.baseurl }}/assets/images/symbol-defs.svg#loop" />
+          </svg>
+          <span class="legend">de bonheur</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,6 +1,6 @@
 ---
 title: Le Manifeste de Sud Web
-description: ""
+description: "Les valeurs partagées par la conférence Sud Web"
 permalink: /manifeste/
 ---
 

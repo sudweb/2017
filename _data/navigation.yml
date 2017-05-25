@@ -4,7 +4,5 @@ primary:
     url: "/programme/"
   - name: "Lieux"
     url: "/lieux/"
-  - name: "Inscription"
-    url: "/inscription/"
   - name: "Participants"
     url: "/participants/"

@@ -10,5 +10,5 @@ date: 2017-05-19 16:25:00 +0200 # heure de début du talk
 lang: fr # langue du talk
 display-order: 13 # ordre d'affichage sur le site
 video: # url vers la video
-slides:  # url du support de présentation
+slides:  https://speakerdeck.com/libelilou/parce-que-vous-le-valez-bien-helene-schapira-sud-web-2017
 ---

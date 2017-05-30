@@ -12,5 +12,5 @@ date: 2017-05-19 14:45:00 +0200 # heure de début du talk
 lang: fr # langue du talk
 display-order: 9 # ordre d'affichage sur le site
 video: # url vers la video
-slides:  # url du support de présentation
+slides:  https://speakerdeck.com/cabaroc/design-city-itineraire-dun-designer-gate
 ---

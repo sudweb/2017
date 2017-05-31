@@ -12,5 +12,5 @@ date: 2017-05-19 14:15:00 +0200 # heure de début du talk
 lang: fr # langue du talk
 display-order: 8 # ordre d'affichage sur le site
 video: # url vers la video
-slides:  # url du support de présentation
+slides:  https://speakerdeck.com/lucascerdan/user-testing-sans-les-galeres
 ---

@@ -9,6 +9,6 @@ symbol: crea # crea expe well educ
 date: 2017-05-19 09:15:00 +0200
 lang: fr
 display-order: 1
-video: # url vers la video
+video: https://vimeo.com/224482434
 slides:  # url du support de présentation
 ---

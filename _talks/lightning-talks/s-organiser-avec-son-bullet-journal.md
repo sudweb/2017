@@ -9,6 +9,6 @@ symbol: well # icone
 date: 2017-05-19 14:50:00 +0200 # heure de début du talk
 lang: fr # langue du talk
 display-order: 10 # ordre d'affichage sur le site
-video: # url vers la video
+video: https://vimeo.com/224633246
 slides:  # url du support de présentation
 ---

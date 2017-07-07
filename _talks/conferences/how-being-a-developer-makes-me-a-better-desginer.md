@@ -9,6 +9,6 @@ symbol: expe # crea expe well educ
 date: 2017-05-19 10:15:00 +0200 # heure de début du talk
 lang: en # langue du talk
 display-order: 3 # ordre d'affichage sur le site
-video: # url vers la video
+video: https://vimeo.com/224545194
 slides:  # url du support de présentation
 ---

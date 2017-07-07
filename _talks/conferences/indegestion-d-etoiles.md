@@ -11,6 +11,6 @@ symbol: well # crea expe well educ
 date: 2017-05-19 16:35:00 +0200
 lang: fr
 display-order: 15
-video: # url vers la video
+video: https://vimeo.com/224672262
 slides:  https://speakerdeck.com/sabinesafi/sudweb-2017-indigestion-detoiles
 ---

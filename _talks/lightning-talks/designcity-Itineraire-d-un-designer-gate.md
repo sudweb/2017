@@ -11,6 +11,6 @@ symbol: crea # icone
 date: 2017-05-19 14:45:00 +0200 # heure de début du talk
 lang: fr # langue du talk
 display-order: 9 # ordre d'affichage sur le site
-video: # url vers la video
+video: https://vimeo.com/224629246
 slides:  https://speakerdeck.com/cabaroc/design-city-itineraire-dun-designer-gate
 ---

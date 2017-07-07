@@ -9,6 +9,6 @@ symbol: educ # crea expe well educ
 date: 2017-05-19 11:55:00 +0200 # heure de début du talk
 lang: fr # langue du talk
 display-order: 7 # ordre d'affichage sur le site
-video: # url vers la video
+video: https://vimeo.com/224602296
 slides: http://slides.com/nferrari/data-hosting-2017#/
 ---

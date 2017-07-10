@@ -11,6 +11,6 @@ symbol: expe # crea expe well educ
 date: 2017-05-19 14:15:00 +0200 # heure de début du talk
 lang: fr # langue du talk
 display-order: 8 # ordre d'affichage sur le site
-video: # url vers la video
+video: https://vimeo.com/224921974
 slides:  https://speakerdeck.com/lucascerdan/user-testing-sans-les-galeres
 ---

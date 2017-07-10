@@ -9,6 +9,6 @@ symbol: crea
 date: 2017-05-19 15:55:00 +0200 # heure de début du talk
 lang: fr # langue du talk
 display-order: 12 # ordre d'affichage sur le site
-video: # url vers la video
+video: https://vimeo.com/224909754
 slides:  # url du support de présentation
 ---

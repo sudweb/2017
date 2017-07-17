@@ -14,11 +14,11 @@ Ce site web est édité par l’association Sud-Web :
 * association à but non lucratif de type loi 1901;
 * déclarée le 30/11/2011, auprès de la préfecture d’Avignon;
 * sous le numéro W842002749;
-* dont le siège social est situé : Lieu-dit la Gare, 42380 Périgneux.
+* dont le siège social est situé : 32, route de la Grange, 24750 CHAMPCEVINEL
 
 ## Directeur de la publication
 
-La directrice de la publication est Amanda Martinez, présidente de l’association.
+La directrice de la publication est Boris Schapira, président de l’association.
 
 ## Hébergeur
 

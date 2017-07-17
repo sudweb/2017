@@ -78,7 +78,7 @@ exclude:
   - notes-integration.md
   - script
 
-gems:
+plugins:
   - jekyll-github-metadata
   - jekyll-sitemap
   - jekyll-paginate

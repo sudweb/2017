@@ -14,11 +14,11 @@ Ce site web est édité par l’association Sud-Web :
 * association à but non lucratif de type loi 1901;
 * déclarée le 30/11/2011, auprès de la préfecture d’Avignon;
 * sous le numéro W842002749;
-* dont le siège social est situé : 32, route de la Grange, 24750 CHAMPCEVINEL
+* dont le siège social est situé : 32, route de la Grange, 24750 Champcevinel
 
 ## Directeur de la publication
 
-La directrice de la publication est Boris Schapira, président de l’association.
+Le directeur de la publication est Boris Schapira, président de l’association Sud-Web.
 
 ## Hébergeur
 
@@ -30,7 +30,7 @@ La création de liens avec le site est libre.
 
 ## Droits de reproduction
 
-Toute copie d’un contenu d’une des pages du site doit avoir obtenu l’autorisation expresse de Sud-Web.
+Toute copie d’un contenu d’une des pages du site doit avoir obtenu l’autorisation expresse de l'association Sud-Web.
 
 ## Données nominatives
 
